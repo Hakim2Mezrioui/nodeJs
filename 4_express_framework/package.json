@@ -4,8 +4,26 @@
   "description": "lorem",
   "main": "basic_project_setup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script1": "node ./index.js",
+    "start": "nodemon ./index.js",
+    "request-method": "nodemon ./request_method.js",
+    "params": "nodemon ./params.js",
+    "query": "nodemon ./query_string.js",
+    "sub-route": "nodemon ./sub_route.js",
+    "cookies": "nodemon ./cookies.js",
+    "request-object": "nodemon ./request_object.js",
+    "response-object": "nodemon ./response_object.js",
+    "view-engine": "nodemon ./view_engine_and_html_response.js",
+    "response-format": "nodemon ./response_format.js",
+    "status-code": "nodemon ./http_response_status_code.js"
   },
   "author": "mezrioui hakim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
 }
