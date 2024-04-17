@@ -1,0 +1,23 @@
+{
+  "name": "5_mongodb_and_mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "etablish_connection": "nodemon ./1_etablish_database_connection.js",
+    "findOne": "nodemon ./3_find_single_doc_from_db.js",
+    "findMulti": "nodemon ./4_find_multi_doc_from_db.js",
+    "updateOne": "nodemon ./5_update_single_doc.js",
+    "updateMulti": "nodemon ./6_update_multi_doc.js",
+    "deleteOne": "nodemon ./7_delete_single_doc.js",
+    "deleteMulti": "nodemon ./8_delete_multi_doc.js"
+  },
+  "author": "mezrioui hakim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0"
+  }
+}

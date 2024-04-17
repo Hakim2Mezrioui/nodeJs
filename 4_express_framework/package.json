@@ -16,7 +16,11 @@
     "response-object": "nodemon ./response_object.js",
     "view-engine": "nodemon ./view_engine_and_html_response.js",
     "response-format": "nodemon ./response_format.js",
-    "status-code": "nodemon ./http_response_status_code.js"
+    "status-code": "nodemon ./http_response_status_code.js",
+    "middleware": "nodemon ./how_to_use_middleware.js",
+    "error-middleware": "nodemon ./error_handling_middleware.js",
+    "error-handling": "nodemon ./error-handling.js",
+    "parse-incoming-request": "nodemon ./5-parse-incoming-request-body.js"
   },
   "author": "mezrioui hakim",
   "license": "ISC",

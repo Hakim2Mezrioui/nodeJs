@@ -1,0 +1,5 @@
+1- app level middleware
+2- route level middleware
+3- error handling middleware
+4- built-in middleware
+5- third-party middleware
