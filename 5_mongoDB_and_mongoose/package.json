@@ -11,13 +11,16 @@
     "updateOne": "nodemon ./5_update_single_doc.js",
     "updateMulti": "nodemon ./6_update_multi_doc.js",
     "deleteOne": "nodemon ./7_delete_single_doc.js",
-    "deleteMulti": "nodemon ./8_delete_multi_doc.js"
+    "deleteMulti": "nodemon ./8_delete_multi_doc.js",
+    "connection-mongoose": "nodemon ./9_database_connection_using_mongoose.js",
+    "schema-define": "nodemon ./10_schema_define.js"
   },
   "author": "mezrioui hakim",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
     "nodemon": "^3.1.0"
   }
 }
