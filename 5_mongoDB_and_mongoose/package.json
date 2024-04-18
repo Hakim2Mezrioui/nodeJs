@@ -13,7 +13,15 @@
     "deleteOne": "nodemon ./7_delete_single_doc.js",
     "deleteMulti": "nodemon ./8_delete_multi_doc.js",
     "connection-mongoose": "nodemon ./9_database_connection_using_mongoose.js",
-    "schema-define": "nodemon ./10_schema_define.js"
+    "schema-define": "nodemon ./10_schema_define.js",
+    "add-single-doc-mongoose": "nodemon ./11_add_single_doc_using_mongoose.js",
+    "add_multi_doc_mongoose": "nodemon ./12_add_multi_doc_using_mongoose.js",
+    "update_single_doc_mongoose": "nodemon ./13_update_single_doc_using_mongoose.js",
+    "update_multi_doc_mongoose": "nodemon ./14_update_multi_doc_using_mongoose.js",
+    "find_one_mongoose": "nodemon ./15_find_single_doc_using_mongose.js",
+    "find_multi_mongoose": "nodemon ./16_find_multi_doc_using_mongoose.js",
+    "delete_single_mongoose": "nodemon ./17_delete_single_doc_using_mongoose.js",
+    "delete_multi_mongoose": "nodemon ./18_delete_multi_doc_using_mongoose.js"
   },
   "author": "mezrioui hakim",
   "license": "ISC",
