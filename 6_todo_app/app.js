@@ -1,9 +1,13 @@
 const bodyParser = require("body-parser");
 const express = require("express");
 const path = require("path");
+const dotenv = require("dotenv");
 
 const connectMongodb = require("./init/mongodb");
 const router = require("./routes/todo");
+
+// environment variable
+dotenv.config();
 
 
 // init app

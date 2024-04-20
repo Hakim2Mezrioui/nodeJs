@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const connectionUrl = "mongodb://127.0.0.1:27017/todoDB";
 const connectMongodb = async () => {
   try {
-    await mongoose.connect(connectionUrl);
+    await mongoose.connect(process.env.CONNECTION_URL);
     console.log("The connection etablished");
   } catch (error) {
     console.log(error);
