@@ -26,3 +26,4 @@ app.get("/home", (req, res, next) => {
 app.listen(8000, () => {
   console.log("the server is running");
 });
+
