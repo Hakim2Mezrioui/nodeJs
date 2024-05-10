@@ -18,7 +18,7 @@ const app = express();
 
 app.get("/student/:name", async (req, res, next) => {
   const { name } = req.params;
-  const data = await student.findOne({ name: name });
+  const data = await student.findOne({ name: name }); // findById("id");
   console.log(data);
   res.status(200).send(data);
 });
